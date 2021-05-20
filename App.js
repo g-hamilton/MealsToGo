@@ -16,8 +16,6 @@ import { theme } from "./src/infrastructure/theme";
 import { Text } from "./src/components/typography/text.component";
 import { RestaurantsScreen } from "./src/features/restaurants/screens/restaurants.screen";
 
-import { restaurantsRequest } from "./src/services/restaurants/restaurants.service";
-
 const Tab = createBottomTabNavigator();
 
 const TAB_ICON = {
